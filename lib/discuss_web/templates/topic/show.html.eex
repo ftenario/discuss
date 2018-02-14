@@ -1,0 +1,21 @@
+<script> 
+  document.addEventListener("DOMContentLoaded", function() {
+    window.createSocket(<%= @topic.id %>)
+  });
+</script>
+
+<h2>Show Topic</h2>
+<h5><%= @topic.title %></h5>
+
+<div class="input-field">
+  <textarea class="materialize-textarea"></textarea>
+  <button class="btn">Add Comments</button>
+  <ul class="collection">
+
+  </ul>
+</div>
+<br>
+<%= if @conn.assigns.user.id == @topic.user_id do %>
+  <span><%= link "Edit", to: topic_path(@conn, :edit, @topic) %></span>
+  <span><%= link "Back", to: topic_path(@conn, :index) %></span>
+<% end %>
