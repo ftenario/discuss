@@ -1,7 +1,7 @@
 # Discuss
 
 Discuss is a web application lesson by Udemy/Stephen Grider based on the Elixir Language and Phoenix web framework.
-It has been updated to used Phoenix 1.3
+The lesson at Udemy is based on version Phoenix 1.2. There is a huge change from 1.2 to 1.3 particularly the directory structures and the use of Contexts. This implementation is updated to version 1.3
 
 This implenentaiotn is also using MySQL database server instead of the default PostgreSQL
 
