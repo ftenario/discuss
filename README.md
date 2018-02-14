@@ -1,5 +1,10 @@
 # Discuss
 
+Discuss is a web application lesson by Udemy/Stephen Grider based on the Elixir Language and Phoenix web framework.
+It has been updated to used Phoenix 1.3
+
+This implenentaiotn is also using MySQL database server instead of the default PostgreSQL
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
